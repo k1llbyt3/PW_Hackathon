@@ -211,8 +211,8 @@ export default function LoginPage() {
           <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-2xl p-8 border border-slate-200 dark:border-white/10">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Link to="/" className="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
-                <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center">
-                  <Ticket className="text-white w-4 h-4 transform -rotate-12" />
+                <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
+                  <img src="/Ticket.png" alt="Logo" className="w-full h-full object-contain transform -rotate-12 group-hover:rotate-0 transition-transform duration-500" />
                 </div>
                 <span className="font-bold text-slate-900 dark:text-white">AlgoTix</span>
               </Link>
